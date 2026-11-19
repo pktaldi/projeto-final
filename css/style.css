@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #7e2828;
+    background-color: #E30613;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -27,12 +27,15 @@ header section {
     gap: 20px;
 }
 
+main {
+    padding-right: 20%;
+    padding-left: 20%;
+}
 #intro {
-    background: linear-gradient(135deg, #7e2828, #551919 70%);
+    background: linear-gradient(135deg, #E30613, #A8050E 70%);
     color: #fff;
-    margin: 30px;
-    margin-right: 29%;
-    margin-left: 29%;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding: 30px;
     display: flex;
     align-items: center;
@@ -50,7 +53,7 @@ header section {
     align-items:flex-start;
 }
 #intro h2 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
 .botao-amarelo {
