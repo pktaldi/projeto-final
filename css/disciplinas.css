@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  'Plus Jakarta Sans', sans-serif;
+}
+
+header {
+    background-color: #7e2828;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    padding-right: 50px;
+    padding-left: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+}
+
+header section {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+
+.botao-branco {
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    color: #551919;
+    border-radius: 10px;
+}
+.botao-branco:hover {
+    background-color: #b3b3b3;
+}
+
+.botao-tranparente {
+    padding: 10px;
+}
+.botao-tranparente:hover {
+    background-color: #fff;
+    text-decoration: none;
+    color: #551919;
+    border-radius: 10px;
+}

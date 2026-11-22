@@ -40,6 +40,7 @@ header section {
     margin-bottom: 50px;
     display: flex;
     align-items: center;
+    gap: 25px;
     border-radius: 20px;
 }   
 
@@ -82,7 +83,8 @@ header section {
     background-color: #551919;
     color: #fff;
     text-align: center;
-    padding: 30px;
+    padding-top: 30px;
+    padding-bottom: 1px;
     margin-top: 40px;
 }
 
@@ -94,7 +96,7 @@ header section {
     display: flex;
     justify-content: center;
     gap: 100px;
-    margin: 80px;
+    margin: 50px;
 }
 
 .opcao-materia {
@@ -106,11 +108,27 @@ header section {
     border-radius: 20px;
     width: 180px;
 }
+.opcao-materia:hover {
+    background-color: #fff;
+    color: #551919;
+}
 .botao-branco {
     background-color: #fff;
     padding: 10px;
     text-decoration: none;
     color: #551919;
     border-radius: 10px;
-    text-align: left;
+}
+.botao-branco:hover {
+    background-color: #b3b3b3;
+}
+
+.botao-tranparente {
+    padding: 10px;
+}
+.botao-tranparente:hover {
+    background-color: #fff;
+    text-decoration: none;
+    color: #551919;
+    border-radius: 10px;
 }
