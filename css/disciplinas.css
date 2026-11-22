@@ -27,8 +27,34 @@ header section {
     gap: 20px;
 }
 
+main {
+    min-height: 95vh;
+    background: linear-gradient(90deg, #ffefef,  #7e2828 55%);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
 
+#sec-opcoes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 50px;
+}
 
+.btn-materias {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+.btn-materias:hover {
+    text-decoration:underline;
+}
+#titulo-disciplinas {
+    font-size: 50px;
+    color: #fff;
+}
 .botao-branco {
     background-color: #fff;
     padding: 10px;
