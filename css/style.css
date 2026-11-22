@@ -27,13 +27,17 @@ header section {
     gap: 20px;
 }
 
+#main1 {
+    padding-right: 20%;
+    padding-left: 20%;
+    background-color: #f8f9fa;
+    padding-top: 30px;
+}
 #intro {
     background: linear-gradient(135deg, #7e2828, #551919 70%);
     color: #fff;
-    margin: 30px;
-    margin-right: 29%;
-    margin-left: 29%;
     padding: 30px;
+    margin-bottom: 50px;
     display: flex;
     align-items: center;
     border-radius: 20px;
@@ -41,23 +45,72 @@ header section {
 
 #intro img {
     width: 300px;
+    border-radius: 20px;
 }
 
 #intro article {
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 40px;
     align-items:flex-start;
 }
 #intro h2 {
-    font-size: 50px;
+    font-size: 60px;
 }
 
-.botao-amarelo {
-    background-color: rgb(187, 154, 8);
-    padding: 8px;
+#vantagens h3 {
+    font-size: 25px;
+}
+#vantagens section {
+    display: flex;
+    gap: 30px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+#vantagens section article{
+    border-radius: 20px;
+    background-color: #ffe0e0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#materias {
+    background-color: #551919;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    margin-top: 40px;
+}
+
+#materias h3 {
+    font-size: 35px;
+}
+
+#materias section {
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 80px;
+}
+
+.opcao-materia {
     text-decoration: none;
     color: #fff;
+    background-color:#551919;
+    border: 2px solid #fff;
+    padding: 40px;
+    border-radius: 20px;
+    width: 180px;
+}
+.botao-branco {
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    color: #551919;
     border-radius: 10px;
     text-align: left;
 }
