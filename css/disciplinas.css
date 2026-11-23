@@ -5,6 +5,13 @@
     font-family:  'Plus Jakarta Sans', sans-serif;
 }
 
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #7e2828;
+}
+
 header {
     background-color: #7e2828;
     color: white;
@@ -26,44 +33,65 @@ header section {
     align-items: center;
     gap: 20px;
 }
-
+/* Conteúdo Principal */
 main {
-    min-height: 95vh;
-    background: linear-gradient(90deg, #ffefef,  #7e2828 55%);
+    flex: 1;
+    background: linear-gradient(105deg, #ffefef 0%, #fbe3e3 36%, #7e2828 56%, #551919 100%);
     display: flex;
     align-items: center;
     justify-content: space-around;
+    padding: 40px 60px;
+    gap: 40px;
 }
 
+/* Cards das Matérias */
 #sec-opcoes {
     display: flex;
     flex-direction: column;
-    text-align: center;
-    gap: 50px;
+    gap: 24px;
+    width: 100%;
+    max-width: 360px;
 }
 
 .btn-materias {
+    background-color: #ffffff;
+    color: #551919;
     text-decoration: none;
-    color: #fff;
-    font-size: 25px;
+    font-size: 22px;
+    padding: 24px 28px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 12px 30px rgba(85, 25, 25, 0.12);
 }
 
+
 .btn-materias:hover {
-    text-decoration:underline;
+    background-color: #7e2828;
+    color: #ffffff;
 }
+
+
+/* Título Principal */
+#lado-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 15px;
+}
+
 #titulo-disciplinas {
-    font-size: 50px;
-    color: #fff;
+    font-size: 70px;
+    color: #ffffff;
+    letter-spacing: -0.03em;
+    position: relative;
 }
-.botao-branco {
+
+#lado-titulo hr {
+    width: 120px;
+    height: 2px;
     background-color: #fff;
-    padding: 10px;
-    text-decoration: none;
-    color: #551919;
-    border-radius: 10px;
-}
-.botao-branco:hover {
-    background-color: #b3b3b3;
 }
 
 .botao-tranparente {
@@ -74,4 +102,15 @@ main {
     text-decoration: none;
     color: #551919;
     border-radius: 10px;
+}
+
+.botao-branco {
+    background-color: #fff;
+    padding: 10px;
+    text-decoration: none;
+    color: #551919;
+    border-radius: 10px;
+}
+.botao-branco:hover {
+    background-color: #b3b3b3;
 }
