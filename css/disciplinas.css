@@ -9,11 +9,10 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #7e2828;
 }
 
 header {
-    background-color: #7e2828;
+    background-color: #ac0000;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -36,7 +35,7 @@ header section {
 /* Conteúdo Principal */
 main {
     flex: 1;
-    background: linear-gradient(105deg, #ffefef 0%, #fbe3e3 36%, #7e2828 56%, #551919 100%);
+    background: linear-gradient(180deg, #ac0000, #7a0000 1%);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -55,7 +54,7 @@ main {
 
 .btn-materias {
     background-color: #ffffff;
-    color: #551919;
+    color: #7a0000;
     text-decoration: none;
     font-size: 22px;
     padding: 24px 28px;
@@ -68,7 +67,7 @@ main {
 
 
 .btn-materias:hover {
-    background-color: #7e2828;
+    background-color: #ac0000;
     color: #ffffff;
 }
 

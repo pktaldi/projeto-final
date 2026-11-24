@@ -6,7 +6,7 @@
 }
 
 header {
-    background-color: #7e2828;
+    background-color: #ac0000;
     color: white;
     display: flex;
     justify-content: space-between;
@@ -34,7 +34,7 @@ header section {
     padding-top: 30px;
 }
 #intro {
-    background: linear-gradient(135deg, #7e2828, #551919 70%);
+    background: linear-gradient(135deg, #ac0000, #780000 70%);
     color: #fff;
     padding: 30px;
     margin-bottom: 50px;
@@ -72,7 +72,7 @@ header section {
 
 #vantagens section article{
     border-radius: 20px;
-    background-color: #ffe0e0;
+    background-color: #ac000018;
     padding: 20px;
     display: flex;
     flex-direction: column;
