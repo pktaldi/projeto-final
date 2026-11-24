@@ -1,19 +1,17 @@
 * {
     margin: 0;
     padding: 0;
-      box-sizing: border-box;
+    box-sizing: border-box;
 }
 
 body {
-    font-family: arial, 'plus-jakarta-sans', sans-serif;
-    background-color: #f5f5f5;
+    font-family: 'Plus Jakarta Sans', Arial, sans-serif;
+    background-color: #ffe5d4;
     color: #333;
 }
 
-
-
 header {
-    background-color: #7e2828;
+    background-color: #ac0000;
     color: white;
     text-align: center;
     padding: 35px;
@@ -22,25 +20,29 @@ header {
 header h1 {
     font-size: 35px;
     margin-bottom: 10px;
+    margin: 5px;
 }
 
 header p {
     font-size: 16px;
+    margin-bottom: 25px;
 }
 
-
 #menu {
-    margin-top: 30px;
-    background-color: #f8f4f5;
-    padding: 15px;
-    
+    background-color: white;
+    padding: 10px;
+    margin-bottom: 25px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 
 #menu a {
-   color: #7e2828;
+    color: #ac0000;
     text-decoration: none;
-    padding: 10px;
-    margin: 50px;
+    padding: 10px 15px;
     border-radius: 5px;
 }
 
@@ -49,42 +51,46 @@ header p {
 }
 
 main {
-    width: 85%;
     margin: 30px;
 }
 
-section {
+main section {
     background-color: white;
     padding: 25px;
     margin-bottom: 20px;
     border-radius: 5px;
+    display: flex;
+    flex-direction: column;
 }
 
-section h2 {
-    color: #7e2828;
+.botao {
+    background-color: #ac0000;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin-top: 10px;
+    max-width: 150px;
+}
+
+main section h2 {
+    color: #ac0000;
     margin-bottom: 15px;
     font-size: 25px;
 }
 
-section p {
+main section p {
     font-size: 16px;
     margin-bottom: 10px;
 }
 
 
-
-.botao {
-    background-color: #7e2828;
-    color: white;
-    text-decoration: none;
-    padding: 12px;
-    margin-top: 10px;
-    border-radius: 5px;
+.botao:hover {
+    background-color: #8a0000;
 }
 
-
 footer {
-    background-color: #7e2828;
+    background-color: #ac0000;
     color: white;
     text-align: center;
     padding: 20px;
