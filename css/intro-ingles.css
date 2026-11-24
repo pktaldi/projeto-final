@@ -1,20 +1,91 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    margin: 0;
+    padding: 0;
+      box-sizing: border-box;
 }
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+
 
 header {
-  padding: 25px;
-  padding-right: 250px;
-  padding-left: 100px;
-  display: flex;
-  justify-content: space-between;
-  background-color: red;
-  align-items: center;
+    background-color: #e9072d;
+    color: white;
+    text-align: center;
+    padding: 35px;
 }
 
+header h1 {
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 16px;
+}
+
+
 #menu {
-  display: flex;
-  gap: 30px;
+    margin-top: 30px;
+    background-color: #f8f4f5;
+    padding: 15px;
+}
+
+#menu a {
+    color: rgb(243, 7, 7);
+    text-decoration: none;
+    padding: 10px 18px;
+    display: inline-block;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+
+
+main {
+    width: 85%;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 25px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+section h2 {
+    color: #f30930;
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+section p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+
+
+
+.botao {
+    display: inline-block;
+    background-color: #e9052b;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+
+footer {
+    background-color: #f3062e;
+    color: white;
+    text-align: center;
+    padding: 20px;
 }
