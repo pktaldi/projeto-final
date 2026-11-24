@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: arial, 'plus-jakarta-sans', sans-serif;
     background-color: #f5f5f5;
     color: #333;
 }
@@ -13,7 +13,7 @@ body {
 
 
 header {
-    background-color: #e9072d;
+    background-color: #7e2828;
     color: white;
     text-align: center;
     padding: 35px;
@@ -33,22 +33,24 @@ header p {
     margin-top: 30px;
     background-color: #f8f4f5;
     padding: 15px;
+    
 }
 
 #menu a {
-    color: rgb(243, 7, 7);
+   color: #7e2828;
     text-decoration: none;
-    padding: 10px 18px;
-    display: inline-block;
-    margin: 5px;
+    padding: 10px;
+    margin: 50px;
     border-radius: 5px;
 }
 
-
+#menu a:hover {
+    text-decoration: underline;
+}
 
 main {
     width: 85%;
-    margin: 30px auto;
+    margin: 30px;
 }
 
 section {
@@ -59,14 +61,13 @@ section {
 }
 
 section h2 {
-    color: #f30930;
+    color: #7e2828;
     margin-bottom: 15px;
     font-size: 25px;
 }
 
 section p {
     font-size: 16px;
-    line-height: 1.6;
     margin-bottom: 10px;
 }
 
@@ -74,17 +75,17 @@ section p {
 
 .botao {
     display: inline-block;
-    background-color: #e9052b;
+    background-color: #7e2828;
     color: white;
     text-decoration: none;
-    padding: 12px 20px;
+    padding: 12px;
     margin-top: 10px;
     border-radius: 5px;
 }
 
 
 footer {
-    background-color: #f3062e;
+    background-color: #7e2828;
     color: white;
     text-align: center;
     padding: 20px;
