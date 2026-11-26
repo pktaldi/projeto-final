@@ -1,0 +1,41 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: white;
+}
+
+
+h1 {
+    color: white;
+    margin-top: 20px;
+}
+
+
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 15px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+
+main {
+    color: black
+}
+
+#conteudo {
+    padding: 20px;
+}
